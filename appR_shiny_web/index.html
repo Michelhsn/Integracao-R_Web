@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Capibalabs - Monitoramento</title>
+	<style type="text/css">
+            body, html
+            {
+                margin: 0; padding: 0; height: 100%; overflow: hidden;
+            }
+
+            #content
+            {
+                position:absolute; left: 0; right: 0; bottom: 0; top: 60px; 
+            }
+        </style>
+  <link rel="shortcut icon" href="img/favicon01.png" type="image/x-png"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="600">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+#logo {
+    width: 150px;
+    height: 40px;
+
+}
+
+</style>
+  <body>
+
+      <nav class="navbar navbar-default navbar-fixed-top">
+
+  <div class="container-fluid" id="casa">
+
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+      </button>
+
+
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+
+      <ul class="nav navbar-nav">
+
+        <li><a href="http://iot.recife.ifpe.edu.br"><img src="img/capibalabs-banner.png" id="logo"></a></li>
+
+
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Exibir Gráficos
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a id="dia" href="#" >Dia</a></li>
+          <li><a href="#">Mês</a></li>
+          <li><a href="#">Ano</a></li>
+          <li><a id="tudo" href="#">Tudo</a></li>
+        </ul>
+      </li>
+        <li><a href="#"> Downloads<span  class="glyphicon glyphicon-download-alt"></span></a></li>
+<li><a href="logout.php">Logout <span class="glyphicon glyphicon-log-out"></span></a></li>
+       
+
+      </ul>
+     
+
+    </div>
+
+  </div>
+
+</nav>
+
+
+
+	<div id= "content">
+        <iframe width="100%" height="100%" src="./sample-apps/aplicativo/"></iframe>
+        </div>
+
+
+</body>
+
+
+
+</html>
