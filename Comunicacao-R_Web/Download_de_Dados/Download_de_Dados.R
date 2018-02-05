@@ -8,7 +8,7 @@ library("RMySQL")
 # Permissão Mysql remoto para o IP - mysqld.cnf
 # Dar os privilégios REVOKE ALL PRIVILEGES ON *.* FROM 'usuario'@'ip'; GRANT ALL PRIVILEGES ON *.* TO 'usuario'@'ip' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 
 # 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
-mydb = dbConnect(MySQL(), user='root', password='root', dbname='capiba_monitoramento', host='localhost')
+mydb = dbConnect(MySQL(), user='user', password='password', dbname='dbname', host='localhost')
 
 # Lista as tabelas na base de dados e a desc
 dbListTables(mydb)
